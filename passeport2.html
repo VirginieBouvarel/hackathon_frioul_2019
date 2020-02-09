@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="passeport2.css">
+	<title>Passe Mobilité</title>
+</head>
+<body>
+	<main>
+		<form action="passeport2.php" method="post">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col">
+						<div class="card">
+							<div class="card-header">
+								<h1>Choix des abonnements</h1>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<div class="form-check">
+										<label class="form-check-label" for="defaultCheck1">
+											RTM
+										</label>
+										<div>
+											<img src="img/rtm.svg" class="w-25" alt="Logo rtm">
+										</div>
+										<select name="rtm" class="custom-select" id="abo_rtm">
+											<option selected>Aucun</option>
+											<option value="PassPermanent">Pass Permanent</option>
+											<option value="PassAnnuel">Pass Annuel</option>
+											<option value="PassMensuel">Pass 30 jours</option>
+											<option value="PassHebdomadaire">Pass 7 jours</option>
+										</select>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class="form-check">
+										<label class="form-check-label" for="defaultCheck1">
+											Bird
+										</label>
+										<div>
+											<img src="img/bird.png" class="w-25" alt="logo bird">
+										</div>
+										<select class="custom-select" id="abo_bird">
+											<option selected>Aucun</option>
+										</select>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class="form-check">
+										<label class="form-check-label" for="defaultCheck1">
+											Circ
+										</label>
+										<div>
+											<img src="img/circ.svg" class="w-25" alt="logo circ">
+										</div>
+										<select class="custom-select" id="abo_circ">
+											<option selected>Aucun</option>
+										</select>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class="form-check">
+										<label class="form-check-label" for="defaultCheck1">
+											Totem
+										</label>
+										<div>
+											<img src="img/totem.svg" class="w-25" alt="logo totem">
+										</div>
+										<select class="custom-select" id="abo_totem">
+											<option selected>Aucun</option>
+										</select>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class="form-check">
+										<label class="form-check-label" for="defaultCheck1">
+											Voi
+										</label>
+										<div>
+											<img src="img/voi.svg" class="w-25" alt="logo voi">
+										</div>
+										<select class="custom-select" id="abo_voi">
+											<option selected>Aucun</option>
+										</select>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class="form-check">
+										<label class="form-check-label" for="defaultCheck1">
+											Citiz
+										</label>
+										<div>
+											<img src="img/citiz.svg" class="w-25" alt="logo citiz">
+										</div>
+										<select class="custom-select" id="abo_citiz">
+											<option selected>Aucun</option>
+											<option value="1">Mensuel</option>
+											<option value="2">Trimestriel</option>
+											<option value="3">Annuel</option>
+										</select>
+									</div>
+								</li>	
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Lignes boutons -->
+				<div class="row">				
+					<div class="col text-left">
+						<!-- Retour -->
+						<a class="btn btn-secondary" href="passeport1.html" role="button">Retour</a>
+					</div>
+
+					<div class="col text-right">
+						<!-- Validation -->
+						<button type="submit" class="btn btn-primary">Valider</button>
+					</div>
+				</div>
+			</div>
+		</form>
+		
+	</main>
+
+	<!-- Scripts Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

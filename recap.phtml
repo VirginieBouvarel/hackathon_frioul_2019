@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ac17cb549.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="passeport1.css">
+    <title>Passeport Mobilité</title>
+</head>
+
+<body>
+
+        <table>
+                <?php foreach($results as $result): ?>
+                <tr>
+                    <td><?php echo $result["lastname"]; ?></td>
+                </tr>
+                <?php endforeach; ?>
+            </table>
+</body>
+</html>

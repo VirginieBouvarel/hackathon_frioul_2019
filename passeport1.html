@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ac17cb549.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="passeport1.css">
+    <title>Passeport Mobilité</title>
+</head>
+
+<body>
+    <h1>Mon Passeport Mobilité</h1>
+    <strong>Pour centraliser tous mes abonnements transport</strong>
+
+    <form action="index.php" method="post" enctype="multipart/form-data">
+
+        <label for="lastname"><i class="fas fa-user"></i></label>
+        <input type="text" name="lastname" id="lastname" placeholder="Nom" required>
+        <br>
+        <label for="firstname"><i class="far fa-user"></i></label>
+        <input type="text" name="firstname" id="firstname" placeholder="Prénom" required>
+        <br>
+        <label for="birthdate"><i class="fas fa-birthday-cake"></i></label>
+        <input type="date" id="birthdate" name="birthdate" size="200">
+        <br>
+        <label for="address"><i class="fas fa-map-marker-alt"></i></label>
+        <input type="text" name="address" id="address" placeholder="Adresse" required>
+        <br>
+        <label for="email"><i class="fas fa-at"></i></label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <br>
+        <p>Mes documents à fournir</p>
+        <br>
+        <label for="identity"><i class="fas fa-address-card"></i></label>
+        <input type="file" id="identity" name="identity" accept="image/png, image/jpeg">
+        <br>
+        <label for="drivinglicense"><i class="fas fa-car"></i></label>
+        <input type="file" id="drivinglicense" name="drivinglicense" accept="image/png, image/jpeg">
+        <br>
+        <label for="addressproof"><i class="fas fa-home"></i></label>
+        <input type="file" id="addressproof" name="addressproof" accept="image/png, image/jpeg">
+         <!--
+            <div class="files">
+                <label for="addressProof"><i class="fas fa-home"></i></label>
+
+                <input type="file" id="addressProof" style="display:none" name="addressProof" accept="image/png, image/jpeg"
+                    onChange="getvalue();" />
+                <input type="text" id="selectedfile" value="Choisissez un fichier" />
+                <input type="button" value="+" onclick="getfile();" />
+            </div>
+        -->
+        <br>
+        <input type="submit" value="Suivant">
+    </form>
+    <!--
+    <script type="text/javascript">
+        function getfile() {
+            document.getElementById('hiddenfile').click();
+        }
+        function getvalue() {
+            document.getElementById('selectedfile').value = document.getElementById('hiddenfile').value;
+        }
+    </script>
+    -->
+</body>
+
+</html>
+<!--
+icones:
+<i class="fas fa-user"></i>
+<i class="far fa-user"></i>
+<i class="fas fa-birthday-cake"></i>
+<i class="fas fa-male"></i>
+<i class="fas fa-female"></i>
+<i class="fas fa-map-marker-alt"></i>
+<i class="fas fa-at"></i>
+<i class="fas fa-address-card"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-home"></i>
+<i class="fas fa-folder-plus"></i>
+-->

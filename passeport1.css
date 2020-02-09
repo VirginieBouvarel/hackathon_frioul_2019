@@ -1,0 +1,91 @@
+/*GLOBAL*/
+:root {
+    --poppins: "Poppins","Helvetica","sans-serif";
+    --white: #fff;
+    --blue: #25a9e8;
+    --buttonblue: #0e5da4;
+    }
+
+html{
+	font-size:62.5%;
+    box-sizing:border-box;
+    background-color:var(--blue);
+}
+
+*, *:before, *:after{
+	box-sizing:inherit;
+}
+
+body{
+	font-family: var(--poppins);
+	color:var(--white);
+    font-size:2rem;
+    margin:0;
+    padding:0;
+    background-image:url("lavande.svg");
+    background-size:cover;    
+    text-align:center;
+}
+img{
+	max-width:100%;
+}
+a{
+	text-decoration:none;
+}
+
+h1{
+    padding:4rem;
+    font-weight:bold;
+}
+strong{
+    margin-bottom:5rem;
+}
+form{
+    padding:4rem;
+}
+input[type="text"], input[type="email"], input[type="file"], input[type="date"]{
+    border:none;
+    border-radius:6px;
+    background-color:var(--white);
+    padding:2rem;
+    margin:2rem auto;
+    width:30rem;
+}
+input[type="text"]::placeholder, input[type="email"]::placeholder,input[type="date"], input[type="text"], input[type="email"]{
+    color:var(--buttonblue);
+}
+p{
+    margin-top:4rem;
+    margin-bottom:0;
+}
+input[type="submit"]{
+    border:none;
+    background-color:var(--buttonblue);
+    color:var(--white);
+    padding:2rem 5rem;
+    border-radius: 6px;
+    margin:3rem auto;;
+    
+}
+input[type="button"]{
+    border:none;
+    background-color:var(--buttonblue);
+    color:var(--white);
+    font-size:2rem;
+    font-weight:bolder;
+    padding: 1rem 1.5rem;
+    border-radius:50%;
+}
+.fas,.far,.fa{
+    font-size:3rem;
+    padding-right:1rem;
+}
+.files{
+    margin-left:5rem;
+}
+
+
+
+
+
+
