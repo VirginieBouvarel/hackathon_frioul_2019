@@ -1,5 +1,3 @@
-### Live version [here](https://virginiebouvarel.github.io/projets_perso/calculator/).
-
 # Hackathon du Frioul - 8 et 9 Octobre 2019
 
 ![Design preview for this project ](./src/preview.png)
